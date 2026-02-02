@@ -46,3 +46,16 @@ def calculate_risk(open_ports):
         "level": level,
         "reasons": reasons
     }
+# Test module
+if __name__ == "__main__":
+    sample_ports = [
+        {"port": 23, "service": "telnet"},
+        {"port": 80, "service": "http"},
+        {"port": 445, "service": "microsoft-ds"}
+    ]
+
+    result = calculate_risk(sample_ports)
+    print("Risk Level:", result["level"])
+    print("Score:", result["score"])
+    for r in result["reasons"]:
+        print("-", r)
