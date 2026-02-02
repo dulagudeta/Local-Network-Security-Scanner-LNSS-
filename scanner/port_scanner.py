@@ -13,10 +13,9 @@ COMMON_PORTS = [
 
 
 def scan_ports(target_ip):
-    """
-    Scans common ports on a given IP address.
-    Returns a list of open ports with service names.
-    """
+
+    #Scans common ports on a given IP address and Returns a list of open ports with service names.
+  
     nm = nmap.PortScanner()
     port_range = ",".join(str(port) for port in COMMON_PORTS)
 
