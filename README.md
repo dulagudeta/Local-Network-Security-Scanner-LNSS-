@@ -240,7 +240,7 @@ Ensure you are using the correct Python interpreter.
 
 # 👨‍💻 Author
 
-Your Name
+DULA GUDETA
 Software Engineering Student
 Cybersecurity Enthusiast
 
@@ -251,5 +251,3 @@ Portfolio: [https://dulagudeta.netlify.app/](https://dulagudeta.netlify.app/)
 ⭐ If you found this project useful, consider starring the repository.
 
 ```
-
----
