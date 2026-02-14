@@ -249,5 +249,3 @@ Portfolio: [https://dulagudeta.netlify.app/](https://dulagudeta.netlify.app/)
 ---
 
 ⭐ If you found this project useful, consider starring the repository.
-
-```
